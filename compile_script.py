@@ -53,7 +53,11 @@ ignore_patterns = [
     r'\.git', # Ignore .git directories
     r'\.history', # Ignore .history directories
     r'\.vscode', # Ignore .vscode directories
-    r'\.png$', # Ignore PNG files
+    r'\.exe', # Ignore .exe files
+    r'\.pdf', # Ignore .pdf files
+    r'\.png', # Ignore .png files
+    r'\.jpg', # Ignore .jpg files
+    r'\.jpeg', # Ignore .jpeg files
     # Add more patterns as needed
 ]
 
