@@ -34,7 +34,7 @@ def compile_contents_to_file(output_filename, script_filename, ignore_patterns=[
                 with open(file_path, 'r') as f:
                     contents = f.read()
                     # Append the file name (with folder prefix if applicable) and its contents to the list
-                    output_lines.append(f"{relative_path_formatted}:\n{contents}\n\n")
+                    output_lines.append(f"-------------------------------------------------------------------------------------------------------|\n{relative_path_formatted}:\n{contents}\n\n")
             except Exception as e:
                 # Handle files that cannot be read (binary files, permissions issues, etc.)
                 print(f"Error reading file {file_path}: {e}")
